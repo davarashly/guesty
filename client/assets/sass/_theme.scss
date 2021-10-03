@@ -1,0 +1,22 @@
+$spacer: 1rem;
+$spacers: (
+	0: 0,
+	1: $spacer / 4,
+	2: $spacer / 2,
+	3: $spacer,
+	4: $spacer * 1.5,
+	5: $spacer * 3,
+	6: $spacer * 4,
+	7: $spacer * 5,
+	8: $spacer * 7,
+	9: $spacer * 9,
+	10: $spacer * 10
+);
+
+$letter-spacing: 0.32px;
+
+body {
+	letter-spacing: $letter-spacing;
+}
+
+@import "~bootstrap";
